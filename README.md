@@ -14,7 +14,7 @@ A lightweight Python script that scans your GitHub account to identify dead, aba
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/aditya4w/Repo_Reaper.git
+   git clone https://github.com/aditya4w/Repo-Reaper.git
    cd Repo_Reaper
 
 2. **Install dependencies:**
