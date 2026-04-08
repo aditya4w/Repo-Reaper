@@ -28,6 +28,18 @@ A lightweight Python script that scans your GitHub account to identify dead, aba
    ```bash
    GITHUB_PAT = "YOUR_GITHUB_PAT_TOKEN"
 
+## How to Generate a GitHub PAT (Personal Access Token)
+
+1. Log in to GitHub and click your profile picture in the top right corner, then select **Settings**.
+2. Scroll to the bottom of the left sidebar and click **Developer settings**.
+3. In the left sidebar, click **Personal access tokens**, then select **Tokens (classic)**.
+4. Click **Generate new token** (top right) and select **Generate new token (classic)**.
+5. In the **Note** field, name it something recognizable (e.g., "Repo Reaper").
+6. Set an **Expiration** date (30 days is recommended for security).
+7. Under **Select scopes**, check the box next to `repo`. This grants the script permission to read your repositories.
+8. Scroll to the bottom and click **Generate token**.
+9. **Copy the token immediately.** GitHub will only display it once. Paste this token into your `config.py` file. 
+
 ## Usage
 
 Exucute the script in your terminal:
