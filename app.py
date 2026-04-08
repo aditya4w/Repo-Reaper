@@ -38,7 +38,7 @@ for repo in masterList:
     forks = repo["forks_count"]
     last_push = repo["pushed_at"]
 
-    last_push_date = datetime.fromisoformat(last_push.replace("Z", "+00.00"))
+    last_push_date = datetime.fromisoformat(last_push.replace("Z", "+00:00"))
     current_time = datetime.now(timezone.utc)
 
     days_inactive = (current_time - last_push_date).days
